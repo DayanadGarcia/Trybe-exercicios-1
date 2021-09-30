@@ -1,0 +1,22 @@
+o cat > arquivo.txt = escreve no arquivo
+cat arquivo.txt = lê o arquivo
+rm -rf = exclui diretorio com arqs
+rmdir = exclui diretorio vazio
+rm = exclui arqs
+head -5 skills.txt = mostra as 5 primeiras skills da lista
+> arquivo.txt = cria um arquivo
+touch arq.txt = cria um arq
+mkdir backup = cria o diretorio backup
+tail -4 skills.txt = mostra as 4 últimas skills da lista
+grep -iv 'palavra à ignorar' arq.txt = vai mostrar todas exceto a que digitou entre aspas, ignorando maiusculas e minusculas
+grep -iv 'boa' phrases.txt busca qualquer frase que não tenha a palavra 'boa'
+grep -i 'palavra a procurar' arq.txt = mostra só a palavra buscada, maiuscula e minuscula tanto faz, mostra normal//
+grep -i 'Zambia' countries.txt procura zambia no arq coutries.txt
+grep -v 'palavra à ignorar' arq.txt = não mostra a palavra entre aspas, CaSe SeNsItIvE
+----------------------------------------------------------
+find -iname '*.txt' - busca dentro do repositório arqvs com extensão .txt 
+rm *.txt = exclui todos arqs .txt daquele diretorio
+wc -w = mostra qnts palavras | wc -w phrases.txt - busca qnts palavras dentro do arqv phrases.txt
+wc -l = mostra qnts linhas
+wc -c = mostra qnts caracteres/bytes
+
