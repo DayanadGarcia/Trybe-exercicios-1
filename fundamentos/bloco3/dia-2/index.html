@@ -6,25 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iniciando CSS</title>
   <style>
+    body{
+      font-size: 20px;
+    }
     h1{
+      font-family: sans-serif;
       font-size: 65px;
       color: orange;
     }
     #list{
       background-color: springgreen;
     }
+    p{
+      font-weight: 600;
+      font-size: 3em;
+      text-align: center;
+
+    }
     .back{
       background-color: steelblue;
     }
+    #dec{
+      text-align: justify;
+      line-height: 2;
+    }
+    #ama{
+      background-color: yellow;
+    }
+    #ver{
+      background-color: red;
+    }
+    #mar{
+      background-color: brown;
+    }
+    #dec{
+      background-color: transparent;
+    }
+
   </style>
 </head>
 <body>
   <h1>Exercícios 3.2</h1>
   <p class="back">Qual a sua cor favorita?</p>
-  <ul class="back">
-    <li>Amarelo</li>
-    <li>Vermelho</li>
-    <li>Marrom</li>
+  <ul id="dec" class="back">
+    <li id="ama">Amarelo</li>
+    <li id="ver">Vermelho</li>
+    <li id="mar">Marrom</li>
   </ul>
 </body>
 </html>
