@@ -1,0 +1,35 @@
+div:hover{
+  border: black solid 3px;
+  border-radius: 5px;
+  padding: 5px;
+}
+div:first-child{
+  background-color: red;
+  width: 170px;
+  height: 40px;
+}
+div:last-child{
+  background-color: aquamarine;
+  width: 200px;
+  height: 40px;
+}
+div:nth-child(2){
+  background-color: orange;
+  width: 200px;
+  height: 40px;
+}
+div:nth-child(3){
+  background-color: rgb(112, 88, 168);
+  width: 250px;
+  margin:50px 0px;
+  height: 100px;
+  font-size: 20px;
+}
+div:nth-child(4){
+  background-color: brown;
+  width: 170px;
+  height: 40px;
+}
+h3:first-child{
+  font-family:cursive;
+}
