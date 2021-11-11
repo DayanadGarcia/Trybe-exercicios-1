@@ -12,11 +12,11 @@ Saída:
 
 function negateNumbers(numbers){
 let arrNegado = [];
-  for (let index = 0; index < array.numbers; index++) {
+  for (let index = 0; index < numbers.length; index++) {
     numbers[index] = numbers[index] * (-1);
     arrNegado.push(numbers[index]);
   }
-  return arrNegado;
+  return console.log(arrNegado);
   // Desenvolva seu código nessa função
 }
-negateNumbers([2,-3,4]);
+negateNumbers([-2,-3,-4]);
