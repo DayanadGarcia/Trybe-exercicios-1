@@ -1,1 +1,1 @@
-Esse repositório armazena os exercícios feitos durante o curso na trybe!
+Esse repositório armazena os exercícios e projetos feitos durante o módulo de fundamentos do curso da trybe!
